@@ -1,0 +1,18 @@
+Index: src/test2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+diff --git a/src/test2.java b/src/test2.java
+--- a/src/test2.java	(revision d4270ee1c0316b5f14a2bcd2b72e91e407d1769b)
++++ b/src/test2.java	(date 1667632017539)
+@@ -3,4 +3,9 @@
+         int x , y =0;
+         x = y +5;
+     }
++
++    @Override
++    public String toString() {
++        return super.toString();
++    }
+ }
